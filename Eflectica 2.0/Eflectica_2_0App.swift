@@ -11,7 +11,7 @@ import SwiftUI
 struct Eflectica_2_0App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ViewModel())
         }
     }
 }
